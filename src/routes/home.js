@@ -8,7 +8,7 @@ const Home = () => {
   return(
     <>
     <h1>Home</h1>
-    <button onClick={page1}>Go to page</button>
+    <button className='home-btn' onClick={page1}>Go to page</button>
     </>
   )
 }

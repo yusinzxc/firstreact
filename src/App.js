@@ -1,8 +1,13 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
+/* ROUTES */
+
 import Home from './routes/home.js'
 import Page1 from './routes/page1.js'
+
+/* STYLES */
+import './styles/main.css'
 const App = () => {
   return(
     <div className="main">
@@ -21,4 +26,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App;;
